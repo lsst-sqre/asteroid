@@ -1,4 +1,5 @@
 import getpass
+from pprint import pprint
 from sys import stdin, stdout
 
 from libcloud.compute.types import Provider
@@ -36,9 +37,9 @@ def prompt_and_get_driver():
 
 def main():
     driver = prompt_and_get_driver()
-    print(driver.list_sizes())
-    print(driver.list_images())
-    print(driver.list_nodes())
+    pprint(driver.list_sizes())
+    pprint(driver.list_images())
+    pprint(driver.list_nodes())
 
 
 if __name__ == '__main__':
