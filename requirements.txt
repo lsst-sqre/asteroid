@@ -1,0 +1,4 @@
+libcloud==0.18
+
+# Development
+ipython==4.0.0.
