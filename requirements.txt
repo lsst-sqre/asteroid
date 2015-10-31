@@ -1,4 +1,4 @@
-libcloud==0.18
+apache-libcloud==0.19
 
 # Development
 ipython==4.0.0.
